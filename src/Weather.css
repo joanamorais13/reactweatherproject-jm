@@ -1,4 +1,4 @@
-.weather {
+/* .weather {
     border: 1px solid grey;
     font-family: arial, sans-serif;
     border: 1px solid #dadde1;
@@ -8,10 +8,12 @@
     max-width: 600px;
     border-radius: 4px;
     color: rgb(135, 135, 135);
+    
+    
 }
 
 .weather h1{
-    font-size: 24px;
+    font-size: 214px;
     font-weight: 100;
     margin: 20px 0 0 0;
     line-height: 29px;
@@ -19,7 +21,7 @@
 }
 .weather ul {
     margin: 0;
-        padding: 0;
+    padding: 0;
 }
 
 .weather li{
@@ -58,4 +60,4 @@
     position: relative;
     line-height: 1;
     top: -34px;
-}
+} */
