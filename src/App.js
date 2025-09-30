@@ -6,7 +6,11 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 function App(){
   return (
     <div className="App">
+      <header className="app-header">
+           <h1 className="app-title">Weather App</h1>
+         </header>
     <div className="container">
+         
          <Weather defaultCity= "New York" />
     </div>
       <footer>
@@ -14,7 +18,7 @@ function App(){
       <strong> 
         <a href="https://github.com/joanamorais13/react-weather-project"  target="_blank"
   rel="noopener noreferrer"
-          >GitHub {" "}<i className="fab fa-github"></i> </a></strong>
+          >GitHub <i className="fab fa-github"></i> </a></strong>
         </footer>
     
     </div>

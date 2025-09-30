@@ -3,6 +3,14 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#root {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 body {
   background: linear-gradient(135deg, #74b9ff 0%, #fbed4e 100%);
   min-height: 100vh;
@@ -13,20 +21,26 @@ body {
   justify-content: center;
 }
 
-#root {
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
 .container {
   background: rgba(255, 255, 255, 0.95);
   border-radius: 20px;
   padding: 30px;
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(10px);
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.app-title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  margin: 0;
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
 }
 
 .App footer {
@@ -70,6 +84,14 @@ body {
     border-radius: 15px;
   }
   
+  .app-header {
+    margin-bottom: 25px;
+  }
+  
+  .app-title {
+    font-size: 2rem;
+  }
+  
   .App footer {
     margin-top: 20px;
     font-size: 11px;
@@ -86,13 +108,19 @@ body {
     border-radius: 12px;
   }
   
+  .app-header {
+    margin-bottom: 20px;
+  }
+  
+  .app-title {
+    font-size: 1.8rem;
+  }
+  
   .App footer {
     margin-top: 20px;
     font-size: 11px;
   }
 }
-
-
 
 /* Loading animation */
 .loading {
