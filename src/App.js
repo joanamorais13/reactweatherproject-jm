@@ -14,7 +14,7 @@ function App(){
       <strong> 
         <a href="https://github.com/joanamorais13/react-weather-project"  target="_blank"
   rel="noopener noreferrer"
-          ><i className="fab fa-github"></i> GitHub</a></strong>
+          >GitHub <i className="fab fa-github"></i> </a></strong>
         </footer>
     
     </div>
