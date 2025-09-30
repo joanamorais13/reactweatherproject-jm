@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Weather from './Weather';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 function App(){
   return (
@@ -13,7 +14,7 @@ function App(){
       <strong> 
         <a href="https://github.com/joanamorais13/react-weather-project"  target="_blank"
   rel="noopener noreferrer"
-          >GitHub</a></strong>
+          ><i className="fab fa-github"></i> GitHub</a></strong>
         </footer>
     
     </div>
