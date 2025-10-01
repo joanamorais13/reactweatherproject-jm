@@ -32,9 +32,16 @@ export default function Weather(props) {
   }
 
   function search() {
-    const apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
+    const apiKey = "YOUR_API_KEY_HERE"; // Replace with your valid API key
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-    axios.get(apiUrl).then(handleResponse);
+    axios.get(apiUrl).then(handleResponse).catch(function(error) {
+      if (error.response && error.response.status === 401) {
+        alert("Invalid API key. Please check your OpenWeatherMap API key.");
+      } else {
+        alert("Error fetching weather data. Please try again.");
+      }
+      console.error("Weather API error:", error);
+    });
   }
 
   if (weatherData.ready) {
