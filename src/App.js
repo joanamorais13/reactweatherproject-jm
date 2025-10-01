@@ -7,14 +7,17 @@ function App(){
   return (
     <div className="App">
       <header className="app-header">
-           <h1 className="app-title">Weather App</h1>
+           <h1 className="app-title">
+            <i class="fa-regular fa-cloud"></i>
+              {' '}Weather App </h1>
+           <p className="app-subtitle">Created with React</p>
          </header>
     <div className="container">
          
          <Weather defaultCity= "New York" />
     </div>
       <footer>
-        This project is open sourced on {" "}
+        This project is open-sourced on {" "}
       <strong> 
         <a href="https://github.com/joanamorais13/react-weather-project"  target="_blank"
   rel="noopener noreferrer"
