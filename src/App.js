@@ -1,14 +1,16 @@
 import React from 'react';
 import './App.css';
 import Weather from './Weather';
-import '@fortawesome/fontawesome-free/css/all.min.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCloud } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function App(){
   return (
     <div className="App">
       <header className="app-header">
            <h1 className="app-title">
-            <i className="fa-regular fa-cloud"></i>
+            <FontAwesomeIcon icon={faCloud} />
               {' '}Weather App </h1>
            <p className="app-subtitle">Created with React</p>
          </header>
@@ -21,7 +23,7 @@ function App(){
       <strong> 
         <a href="https://github.com/joanamorais13/react-weather-project"  target="_blank"
   rel="noopener noreferrer"
-          >GitHub <i className="fab fa-github"></i> </a></strong>
+          >GitHub <FontAwesomeIcon icon={faGithub} /> </a></strong>
         </footer>
     
     </div>
