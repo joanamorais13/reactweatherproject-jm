@@ -8,7 +8,7 @@ function App(){
     <div className="App">
       <header className="app-header">
            <h1 className="app-title">
-            <i class="fa-regular fa-cloud"></i>
+            <i className="fa-regular fa-cloud"></i>
               {' '}Weather App </h1>
            <p className="app-subtitle">Created with React</p>
          </header>
